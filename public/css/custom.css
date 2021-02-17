@@ -1,0 +1,22 @@
+    dl, ol, ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .imgPreview img {
+        padding: 8px;
+        max-width: 100px;
+    }
+
+    .padding_section{
+        padding: 5rem !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .padding_section{
+            padding: 2rem !important;
+        }
+    }
+    body {
+        font-family: 'Nunito';
+    }
